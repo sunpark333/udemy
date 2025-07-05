@@ -1,4 +1,4 @@
-# 🤖 VJ Save Restricted Bot
+# 🤖 Personal Save Restricted Bot
 
 > **A powerful Telegram bot that saves and forwards restricted content from channels and groups with advanced login features**
 
@@ -11,7 +11,7 @@
 - 🔗 **Multiple link formats** support (public, private, bot links)
 - 📦 **Bulk message forwarding** with range support
 - 🎯 **Easy to use** with simple commands
-- 🛡️ **Admin controls** for user management
+- 🔧 **User-friendly interface** with intuitive commands
 
 ---
 
@@ -99,7 +99,24 @@ https://t.me/c/1234567890/50 - 60
 5. Set environment variables
 6. Deploy container
 
-### 🟣 Method 3: VPS/Server
+### 🟠 Method 3: Koyeb
+1. Fork this repository
+2. Create account on [Koyeb](https://koyeb.com)
+3. Create new app from GitHub
+4. Select your repository
+5. Add environment variables in Settings
+6. Deploy with auto-scaling
+
+### 🟤 Method 4: PythonAnywhere
+1. Fork this repository
+2. Create account on [PythonAnywhere](https://pythonanywhere.com)
+3. Open Bash console
+4. Clone your repository: `git clone https://github.com/UTK253/PERSONAL_SRCB`
+5. Install requirements: `pip3.10 install --user -r requirements.txt`
+6. Set environment variables in Files tab
+7. Create a task to run `python3.10 bot.py`
+
+### 🟣 Method 5: VPS/Server
 ```bash
 # Clone repository
 git clone https://github.com/UTK253/PERSONAL_SRCB
@@ -120,7 +137,7 @@ export ERROR_MESSAGE="True"
 python3 bot.py
 ```
 
-### 🟡 Method 4: Google Colab
+### 🟡 Method 6: Google Colab
 1. Open [Google Colab](https://colab.research.google.com)
 2. Create new notebook
 3. Run this code:
@@ -141,7 +158,7 @@ os.environ['ERROR_MESSAGE'] = 'True'
 !python bot.py
 ```
 
-### 🐳 Method 5: Docker
+### 🐳 Method 7: Docker
 ```bash
 # Build image
 docker build -t vj-save-bot .
@@ -156,7 +173,7 @@ docker run -e API_ID="your_api_id" \
            vj-save-bot
 ```
 
-### 🔧 Method 6: Non-Docker Local
+### 🔧 Method 8: Non-Docker Local
 ```bash
 # Install Python 3.10+
 # Clone repository
@@ -240,5 +257,5 @@ If this project helped you, please give it a ⭐ star!
 ---
 
 <div align="center">
-  <b>Made with ❤️ by the Telegram Bot Community</b>
+  <b>Made with ❤️ by BEAST X BOTS</b>
 </div>
