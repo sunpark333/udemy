@@ -1,4 +1,4 @@
-# 🤖 Personal Save Restricted Bot
+# 🤖 Personal Save Restricted Content Bot
 
 > **A powerful Telegram bot that saves and forwards restricted content from channels and groups with advanced login features**
 
@@ -161,7 +161,7 @@ os.environ['ERROR_MESSAGE'] = 'True'
 ### 🐳 Method 7: Docker
 ```bash
 # Build image
-docker build -t vj-save-bot .
+docker build -t personal-save-bot .
 
 # Run container
 docker run -e API_ID="your_api_id" \
@@ -170,7 +170,7 @@ docker run -e API_ID="your_api_id" \
            -e ADMINS="your_admin_id" \
            -e DB_URI="your_mongodb_uri" \
            -e ERROR_MESSAGE="True" \
-           vj-save-bot
+           personal-save-bot
 ```
 
 ### 🔧 Method 8: Non-Docker Local
